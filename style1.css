@@ -1,0 +1,46 @@
+body {
+  font-family: "Fredoka One", cursive;
+  background-size: cover;
+  background-image: url(./Images/background/animal_crossing_background.jpg);
+}
+
+#form h1 {
+  color: white;
+  text-align: center;
+}
+
+#sub:hover {
+  cursor: pointer;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+}
+
+.input-control input:focus {
+  outline: 0;
+}
+
+.input-control.success input {
+  border-color: aqua;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+}
+
+.input-control .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
